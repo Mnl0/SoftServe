@@ -1,0 +1,37 @@
+# Archivos compilados
+*.class
+target/
+bin/
+
+# Archivos de configuración específicos del IDE
+.idea/
+.classpath
+.project
+*.iml
+
+# Archivos de configuración específicos del sistema operativo
+.DS_Store
+
+# Archivos de registro y temporales
+*.log
+*.tmp
+
+# Dependencias externas (si usas un gestor de dependencias como Maven o Gradle,
+# estos ya deberían estar gestionados)
+/lib/
+
+# Archivos específicos de tu proyecto que no quieras versionar
+# (por ejemplo, archivos de configuración local)
+local.properties
+
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+/out/
+*.pdf
+*.zip
